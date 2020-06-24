@@ -2,7 +2,7 @@
 //  ResultViewController.swift
 //  BMI Calculator
 //
-//  Created by Angela Yu on 28/08/2019.
+//  Created by Alan Haro June 23,2020.
 //  Copyright © 2019 Angela Yu. All rights reserved.
 //
 

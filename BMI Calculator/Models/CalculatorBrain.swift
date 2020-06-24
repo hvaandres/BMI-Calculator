@@ -2,7 +2,7 @@
 //  CalculatorBrain.swift
 //  BMI Calculator
 //
-//  Created by Angela Yu on 28/08/2019.
+//  Created by Alan Haro June 23,2020.
 //  Copyright © 2019 Angela Yu. All rights reserved.
 //
 
@@ -27,6 +27,8 @@ struct CalculatorBrain {
     
     mutating func calculateBMI(height: Float, weight: Float) {
         let bmiValue = weight / (height * height)
+        
+        // add colors 
 
         if bmiValue < 18.5 {
             bmi = BMI(value: bmiValue, advice: "Eat more pies!", color: #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1))
